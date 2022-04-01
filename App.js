@@ -14,19 +14,19 @@ export default class App extends React.Component {
     let s = this.state
     s.resultado = imc
     if(s.resultado < 18.5){
-      s.info ='Menor que 18,5, seu quadro é de: Magreza'
+      s.info ='Menor que 18,5, seu quadro é de: Magreza 💪🏻😶'
     }
     else if (s.resultado < 24.9){
-     s.info ='Entre 18,5 e 24,9, seu quadro é: Normal'
+     s.info ='Entre 18,5 e 24,9, seu quadro é: Normal 💪🏻😊'
     }
     else if (s.resultado < 29.9){
-     s.info ='Entre 25,0 e 29,9, você está com: Sobrepeso'
+     s.info ='Entre 25,0 e 29,9, você está com: Sobrepeso 💪🏻😐'
     }
     else if (s.resultado < 39.9) {
-     s.info ='Entre 30,0 e 39,9, tome cuidado, você está com: Obesidade'
+     s.info ='Entre 30,0 e 39,9, tome cuidado, você está com: Obesidade 💪🏻😣'
     }
     else if (s.resultado > 39.9) {
-     s.info ='Maior que 40,0, você está com: Obesidade Grave'
+     s.info ='Maior que 40,0, você está com: Obesidade Grave 💪🏻🙆🏻‍♂️🤦🏻‍♂️🏃🏻‍♂️'
     }
     this.setState(s)
   }
